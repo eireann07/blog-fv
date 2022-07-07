@@ -87,3 +87,15 @@ h2{
   width: 30%;
   padding-left: 10%;
 }
+
+@media (max-width: 1028px) {
+  p {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+}
