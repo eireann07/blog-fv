@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //Persist data to mongodb
-mongoose.connect("mongodb+srv://admin-erin:9fCI3XYStnn3p3sA@cluster0.vcdx1.mongodb.net/blogDB");
+mongoose.connect("mongodb:localhost/27017/blogDB"); //security: update to hide authetification
 
 const postSchema = {
   title: String,
