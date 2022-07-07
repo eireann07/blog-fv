@@ -1,0 +1,15 @@
+<%- include("partials/header"); -%>
+    <h1>Contact</h1>
+    <p> <%= contactContent %> </p>
+    <form class="" action="mailto:erin.s.coen@gmail.com?subject=Hello!" method="post">
+      <div class="form-group">
+        <label>Your name:</label>
+        <input class="form-control" type="text">
+        <label>Your email:</label>
+        <input class="form-control" type="text">
+        <label>Message</label>
+        <textarea class="form-control"rows="5" cols="30"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Publish</button>
+    </form>
+<%- include("partials/footer"); -%>
