@@ -1,4 +1,6 @@
-Easily navigable, minimalist blog. 
+# Blog, Final Version
+
+Easily navigable, minimalist blog. I'm using this blog to share my story about transitioning into code from teaching.
 - Front-end: EJS, JS
 - Back-end: Node, Express
 - Database: MongoDB
